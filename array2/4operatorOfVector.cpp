@@ -13,7 +13,7 @@ int main()
     v.push_back(10);
     v.push_back(30);
     v.push_back(60);
-    v.push_back(90);
+    v.push_back(90); 
 
     cout << "size is " << v.size() << endl;
     cout << "capacity is " << v.capacity()<<endl;
