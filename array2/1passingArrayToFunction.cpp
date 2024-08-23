@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void display(int a[],int size){  //here a[] is a pointer which store the address of an array we acn also write *a instead of a[]
+void display(int *a,int size){  //here a[] is a pointer which store the address of an array we acn also write *a instead of a[]
     for(int i=0;i<=size-1;i++){
         cout<<a[i]<<" ";
     }cout<<endl;
