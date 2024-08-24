@@ -3,8 +3,8 @@
 // using namespace std;
 // void change(vector<int> a){
 //     a[0]=100;                        //when we pass vector in function then vector are pass by value
-//     for(int i=0;i<a.size();i++){     //ek naya vector banta h jiska adress different h
-//         cout<<a[i]<<" ";
+//     for(int i=0;i<a.size();i++){     //ek naya vector banta h jiska adress different h 
+//         cout<<a[i]<<" ";             //aur naya vector me purna vector copy ho jata h
 //     }
 //     cout<<endl;
 
