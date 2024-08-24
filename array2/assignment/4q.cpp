@@ -21,7 +21,7 @@ int main(){
         oddSum+=v[i];
     }
  }
-       cout<<evenSum<<endl;
-       cout<<oddSum;
+       cout<<evenSum-oddSum<<endl;
+       
    
 }
