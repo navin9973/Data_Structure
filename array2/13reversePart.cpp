@@ -39,9 +39,9 @@ int main()
     // int k = 27;
     // if(k>n) k=k%n;
 
-    // reversePart(0, n - k - 1, v);
+    reversePart(0, n - k - 1, v);
     // reversePart(n-k,n-1 , v);
     // reversePart(0, n-1, v);
-rotate(v.begin(),v.begin()+n-k,v.end());
+// rotate(v.begin(),v.begin()+n-k,v.end());
     display(v);
 }
