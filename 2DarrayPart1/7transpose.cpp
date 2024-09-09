@@ -15,10 +15,19 @@ cout<<"enter the array element:";
             cin>>arr[i][j];
         }
     }
+    //transppose storing in array
+    int trans[n][m];
      for(int i=0;i<=n-1;i++){
         for(int j=0;j<=m-1;j++){
-            cout<<arr[j][i]<<" ";
+            trans[i][j]=arr[j][i];
+        }
+       
+    }
+    //transpose printing
+    for(int i=0;i<=n-1;i++){
+        for(int j=0;j<=m-1;j++){
+            cout<<trans[i][j]<<" ";
         }
         cout<<endl;
-    }
+}
 }
