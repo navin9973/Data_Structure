@@ -52,7 +52,7 @@
 
 //         for(int i=0;i<m;i++){
 //             for(int j=0;j<n;j++){
-//               if(i%2==0){
+//               if(i%2!=0){
 //                 cout<<arr[i][j]<<" ";
 //               } 
 //               else{
@@ -87,7 +87,7 @@ int main(){
         for(int i=0;i<m;i++){
             if(j%2==0)
             cout<<arr[i][j]<<" ";
-            else cout<<arr[i][m-1-i]<<" ";
+            else cout<<arr[m-1-i][j]<<" ";
         }
       }
 }
