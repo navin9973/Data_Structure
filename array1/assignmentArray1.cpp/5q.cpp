@@ -8,7 +8,7 @@
 // // }
 // // int x=0;
 // // bool flag=false;
-// // for(int i=0;i<4;i++){
+// // for(int i=0;i<5;i++){
 // // if(a[i]!= x){
 // // cout<<x<<endl;
 // // flag=true;

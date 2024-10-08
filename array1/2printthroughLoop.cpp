@@ -14,6 +14,7 @@ int main(){
     int arr[7];
     for(int i=0;i<=6;i++){  //loop for input
         cin>>arr[i];
+        
     }
     for(int i=0;i<=6;i++){  //loop for output
         cout<<arr[i]<<" ";
