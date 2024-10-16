@@ -1,15 +1,34 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
-int main(){
-  int arr[]={4,2,6,1,3};
-  int n=5;
-  for(int i=1;i<n;i++){
-    int j=i;
-    while(j>=1&&arr[j]<arr[j-1]){
-      swap(arr[j],arr[j-1]);
-      j--;
+int main()
+{
+  string arr[] = {"navin", "jay", "sushant", "rana", "prakesh"};
+  int n = sizeof(arr) / sizeof(arr[0]);
+  for (int i = 0; i < n; i++)
+  {
+    cout << arr[i] << " ";
+  }
+  cout << endl;
+  for (int i = 0; i < n - 1; i++)
+  {
+    bool flag = true;
+    for (int j = 0; j < n - 1 - i; j++)
+    {
+      if (arr[j] > arr[j + 1])
+      {
+        swap(arr[j], arr[j + 1]);
+        flag = false;
+      }
+    }
+    if (flag == true)
+    {
+      break;
     }
   }
-  int sum=arr[0]+arr[1];
-  cout<<sum;
+
+  for (int i = 0; i < n; i++)
+  {
+    cout << arr[i] << " ";
+  }
 }
