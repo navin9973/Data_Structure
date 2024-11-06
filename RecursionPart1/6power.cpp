@@ -7,6 +7,6 @@ int power(int a,int b){
   return a*power(a,b-1);
 }
 int main(){
-  int a=3,b=4;
- cout<< power(3,4);
+  int a=2,b=4;
+ cout<< power(5,4);
 }
