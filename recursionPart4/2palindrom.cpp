@@ -30,7 +30,7 @@ if(i>j){
   return true;
 }
 if(s[i]==s[j]){
-  return pelidrome(s,i+1,j-1);
+ return pelidrome(s,i+1,j-1);
 }
 else return false;
 }
