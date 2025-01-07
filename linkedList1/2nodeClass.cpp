@@ -40,12 +40,12 @@ cout<<a.next->next->val<<" ";
 // }
 // cout<<temp.val<<" ";
 
-Node temp=a;
-while (1){    //condition me 1 likhne swe infinite loop chalta h
-  cout<<temp.val<<" ";
-  if(temp.next==NULL) break;
-  temp=*(temp.next);
-}
+// Node temp=a;
+// while (1){    //condition me 1 likhne swe infinite loop chalta h
+//   cout<<temp.val<<" ";
+//   if(temp.next==NULL) break;
+//   temp=*(temp.next);
+// }
 
 
 }
