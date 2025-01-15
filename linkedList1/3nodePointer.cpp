@@ -39,6 +39,14 @@ void displayRec(Node* head){
   displayRec(head->next); //call    //isme hm b ka dress pass kr rhe h   
 }
 
+void insertAtEnd(Node*head,int val){
+  Node* last=new Node(val);
+  while(head->next!=NULL){
+    head=head->next;
+  }
+  head->next=last;
+
+}
 
 int main(){
 
@@ -65,6 +73,9 @@ cout<<"size of linklist is "<<size(a)<<endl;
 //print by recursion
 
 displayRec(a);
- 
 
+//insert at last
+
+insertAtEnd(a,90);
+display(a);
 }
