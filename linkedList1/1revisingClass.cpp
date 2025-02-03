@@ -15,7 +15,7 @@ class student{
 };
 
  void change(student *s){
-      s->name="jay";
+      s->name="jaywa";
     };
 int main(){
   // student s("navin",12,89.9);
